@@ -31,7 +31,9 @@
     border-left:2px solid black;
     margin-left: 3vw;
     margin-right: 3vw !important;
-    height: 7vh;
+    height: auto;
+    overflow: auto;
+    clear: both;
 }
 .search-title{
     margin-left: 3vw;

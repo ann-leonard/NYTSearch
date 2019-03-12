@@ -41,8 +41,8 @@ $(document).ready(function () {
                 a.text(snippet);
                 a.attr("href", articleUrls);
 
-                $(".articles").append(a);
-                $(".articles").append('<br>');
+                $("#articles").append(a);
+                $("#articles").append('<br>');
 
 
 
