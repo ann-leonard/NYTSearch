@@ -1,0 +1,62 @@
+.Nyt-search {
+    text-align: center;
+    font-weight: bold;
+
+}
+.jumbotron{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    background-color: #08086d;
+    color: white;
+}
+.form-group{
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+.btn{
+    margin-left: 3vw;
+  
+}
+.search-container{
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+    border-left:2px solid black;
+    margin-left: 3vw;
+    margin-right: 3vw !important;
+}
+.search-container2{
+ 
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+    border-left:2px solid black;
+    margin-left: 3vw;
+    margin-right: 3vw !important;
+    height: 7vh;
+}
+.search-title{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding-left: 3vw;
+}
+.search-title2{
+    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding-left: 3vw;
+}
+.search-term{
+    margin-top: 2vh;
+}
+.submit-btn{
+    margin-bottom: 2vh;
+}
+.clear-btn{
+    margin-bottom: 2vh;
+    margin-left: 0 !important;
+}

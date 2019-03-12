@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>NYT Search</title>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4 Nyt-search">New York Times Search</h1>
+        </div>
+    </div>
+    <div class="search-title">Search Parameters</div>
+    <form class="search-container">
+        <div class="form-group search">
+            <label for="exampleInputEmail1" class="search-term">Search Term:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" id="search-input">
+            <small id="emailHelp" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
+            <select class="form-control" id="exampleFormControlSelect1" id="record-amount">
+                <option data-numRecords="1">1</option>
+                <option data-numRecords="5">5</option>
+                <option data-numRecords="10">10</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Start Year (Optional):</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" id="start-year">
+            <small id="emailHelp" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">End Year (Optional):</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" id="end-year">
+            <small id="emailHelp" class="form-text text-muted"></small>
+        </div>
+        <button type="submit" class="btn btn-primary submit-btn">Submit</button>
+        <button type="submit" class="btn btn-primary clear-btn">Clear Results</button>
+    </form>
+
+    <div class="search-title2">Top Articles</div>
+    <form class="search-container2" class="articles">
+        <label></label>
+        <label></label>
+        <label></label>
+    </form>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+
+</html>
